@@ -1,0 +1,14 @@
+client
+dev tun
+proto udp
+resolv-retry infinite
+nobind
+;user nobody
+;group nogroup
+persist-key
+persist-tun
+;mute-replay-warnings
+comp-lzo
+verb 3
+key-direction 1
+
